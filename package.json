@@ -1,0 +1,15 @@
+{
+  "name": "nickkkgg-profile",
+  "private": true,
+  "type": "module",
+  "description": "Generator for the animated SVGs on github.com/NickkkGG",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "signal": "node scripts/signal.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
