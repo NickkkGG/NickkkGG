@@ -7,7 +7,7 @@
   <a href="mailto:nickknelsoon30@icloud.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>
 </p>
 
-<img src="assets/intro-tv.svg" width="250" align="right" alt="A small TV recording a smug white cat">
+<img src="assets/intro-tv.svg" width="190" align="right" alt="A small TV recording a smug white cat">
 
 **Nick Nelson** here. Information Systems student at Universitas Atma Jaya Yogyakarta, Indonesia.
 

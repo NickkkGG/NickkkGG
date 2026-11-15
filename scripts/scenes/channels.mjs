@@ -93,6 +93,7 @@ export function renderChannel(c) {
         statik +
         osd(c.ch, margin, 18, 3, id) +
         osd(c.name, w - margin - textWidth(c.name, 2), 22, 2, id) +
+        `<rect x="${margin - 8}" y="${h - 18 - 14 - 7}" width="${textWidth(c.status, 2) + 18}" height="28" rx="3" fill="#000" fill-opacity="0.6"/>` +
         osd(c.status, margin, h - 18 - 14, 2, id)
       );
     },
