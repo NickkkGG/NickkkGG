@@ -7,7 +7,7 @@
     "build": "node scripts/build.mjs",
     "signal": "node scripts/signal.mjs",
     "preview": "node scripts/preview.mjs",
-    "test": "node --test tests/"
+    "test": "node --test \"tests/**/*.test.mjs\""
   },
   "engines": {
     "node": ">=22"
