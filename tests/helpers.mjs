@@ -17,7 +17,8 @@ export function assertWellFormed(svg) {
     }
   }
   assert.deepEqual(stack, [], `unclosed tags: ${stack.join(", ")}`);
-  assert.ok(!/NaN|Infinity|undefined/.test(svg), "svg contains NaN, Infinity or undefined");
+  const withoutData = svg.replace(/data:[\w/+.-]+;base64,[A-Za-z0-9+/=]+/g, "data:");
+  assert.ok(!/NaN|Infinity|undefined/.test(withoutData), "svg contains NaN, Infinity or undefined");
 }
 
 /** URLs that would make GitHub fetch something from outside the file. */
